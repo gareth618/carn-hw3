@@ -1,0 +1,13 @@
+dataset: MNIST
+model: MLP
+optimizer: SGD
+scheduler: StepLR
+epoch_count: 50
+batch_size: 64
+learning_rate: .001
+patience: 5
+
+# dataset: [MNIST, CIFAR10, CIFAR100]
+# model: [MNIST -> MLP, LeNet; CIFAR -> ResNet18, PreActResNet18]
+# optimizer: [SGD, SGDMomentum, SGDNesterov, Adam, AdamW, RMSProp]
+# scheduler: [None, StepLR, ReduceLROnPlateau]

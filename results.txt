@@ -1,0 +1,123 @@
+config = {
+    'dataset': 'CIFAR100',
+    'model': 'ResNet18',
+    'optimizer': 'SGDNesterov',
+    'scheduler': 'ReduceLROnPlateau',
+    'epoch_count': 10,
+    'batch_size': 64,
+    'learning_rate': .001,
+    'patience': 5,
+}
+epoch: 0 train_loss: 2.8719836997863886
+epoch: 0 valid_loss: 2.1651629285447918 accuracy: 0.423765923566879
+epoch: 1 train_loss: 1.9213985424212483
+epoch: 1 valid_loss: 1.8848762295808001 accuracy: 0.48089171974522293
+epoch: 2 train_loss: 1.5447454178882072
+epoch: 2 valid_loss: 1.8020595942333246 accuracy: 0.5078622611464968
+epoch: 3 train_loss: 1.2828968583470415
+epoch: 3 valid_loss: 1.777649225702711 accuracy: 0.5203025477707006
+epoch: 4 train_loss: 1.0645109495086134
+epoch: 4 valid_loss: 1.767006900659792 accuracy: 0.5329418789808917
+epoch: 5 train_loss: 0.8779484131528289
+epoch: 5 valid_loss: 1.9099348031791152 accuracy: 0.5111464968152867
+epoch: 6 train_loss: 0.7222033216215461
+epoch: 6 valid_loss: 1.8995219787974267 accuracy: 0.5334394904458599
+epoch: 7 train_loss: 0.5749492455283394
+epoch: 7 valid_loss: 1.914610397284198 accuracy: 0.536922770700637
+epoch: 8 train_loss: 0.4737425165636765
+epoch: 8 valid_loss: 1.9969069972919051 accuracy: 0.5305533439490446
+epoch: 9 train_loss: 0.38409375784266025
+epoch: 9 valid_loss: 2.0450664709328086 accuracy: 0.5340366242038217
+
+config = {
+    'dataset': 'CIFAR100',
+    'model': 'ResNet18',
+    'optimizer': 'RMSProp',
+    'scheduler': 'StepLR',
+    'epoch_count': 10,
+    'batch_size': 64,
+    'learning_rate': .001,
+    'patience': 5,
+}
+epoch: 0 train_loss: 3.979795429712671
+epoch: 0 valid_loss: 4.851074296198074 accuracy: 0.0996218152866242
+epoch: 1 train_loss: 2.937884490813136
+epoch: 1 valid_loss: 3.7409218162488025 accuracy: 0.2333797770700637
+epoch: 2 train_loss: 2.503498987163729
+epoch: 2 valid_loss: 3.658030611694239 accuracy: 0.2226313694267516
+epoch: 3 train_loss: 2.193119429718808
+epoch: 3 valid_loss: 4.322171577222788 accuracy: 0.2445262738853503
+epoch: 4 train_loss: 1.9424936696696464
+epoch: 4 valid_loss: 3.6985177765985964 accuracy: 0.20501592356687898
+epoch: 5 train_loss: 1.7145678061048697
+epoch: 5 valid_loss: 2.757421712207187 accuracy: 0.3333996815286624
+epoch: 6 train_loss: 1.5141367204963703
+epoch: 6 valid_loss: 4.926561631974141 accuracy: 0.20919585987261147
+epoch: 7 train_loss: 1.362737429416393
+epoch: 7 valid_loss: 2.9916469747093832 accuracy: 0.3929140127388535
+epoch: 8 train_loss: 1.1919963624318848
+epoch: 8 valid_loss: 4.220471834680836 accuracy: 0.3252388535031847
+epoch: 9 train_loss: 1.0501105675993063
+epoch: 9 valid_loss: 4.739275091013331 accuracy: 0.2961783439490446
+
+config = {
+    'dataset': 'CIFAR100',
+    'model': 'PreActResNet18',
+    'optimizer': 'AdamW',
+    'scheduler': 'StepLR',
+    'epoch_count': 10,
+    'batch_size': 64,
+    'learning_rate': .001,
+    'patience': 5,
+}
+epoch: 0 train_loss: 4.01392090503517
+epoch: 0 valid_loss: 3.6480354579390992 accuracy: 0.1370421974522293
+epoch: 1 train_loss: 3.0977243367973193
+epoch: 1 valid_loss: 2.898257935882374 accuracy: 0.2750796178343949
+epoch: 2 train_loss: 2.501645593539528
+epoch: 2 valid_loss: 2.5115474014525203 accuracy: 0.34325238853503187
+epoch: 3 train_loss: 2.1068701190716776
+epoch: 3 valid_loss: 2.341335958735958 accuracy: 0.39361066878980894
+epoch: 4 train_loss: 1.8096222482678834
+epoch: 4 valid_loss: 1.997729269182606 accuracy: 0.46496815286624205
+epoch: 5 train_loss: 1.5356411197606255
+epoch: 5 valid_loss: 2.703557936249265 accuracy: 0.3973925159235669
+epoch: 6 train_loss: 1.3008746761647636
+epoch: 6 valid_loss: 2.0457418109201324 accuracy: 0.4875597133757962
+epoch: 7 train_loss: 1.0023246611018315
+epoch: 7 valid_loss: 1.9785460355175528 accuracy: 0.511046974522293
+epoch: 8 train_loss: 0.7581508917653043
+epoch: 8 valid_loss: 2.098197846655633 accuracy: 0.5104498407643312
+epoch: 9 train_loss: 0.5728010234549222
+epoch: 9 valid_loss: 2.400644302368164 accuracy: 0.4950238853503185
+
+config = {
+    'dataset': 'CIFAR100',
+    'model': 'PreActResNet18',
+    'optimizer': 'SGDMomentum',
+    'scheduler': 'ReduceLROnPlateau',
+    'epoch_count': 10,
+    'batch_size': 64,
+    'learning_rate': .001,
+    'patience': 5,
+}
+epoch: 0 train_loss: 3.895685053237564
+epoch: 0 valid_loss: 3.4844937035991888 accuracy: 0.16222133757961785
+epoch: 1 train_loss: 3.2344313798962956
+epoch: 1 valid_loss: 3.0167889670961223 accuracy: 0.24661624203821655
+epoch: 2 train_loss: 2.771590039248357
+epoch: 2 valid_loss: 3.0081516709297325 accuracy: 0.25378184713375795
+epoch: 3 train_loss: 2.397943759208445
+epoch: 3 valid_loss: 2.6088870255051146 accuracy: 0.3287221337579618
+epoch: 4 train_loss: 2.1018232585828933
+epoch: 4 valid_loss: 2.4495745866921297 accuracy: 0.3638535031847134
+epoch: 5 train_loss: 1.8532029971137376
+epoch: 5 valid_loss: 2.1920694750585374 accuracy: 0.4130175159235669
+epoch: 6 train_loss: 1.6338301104352908
+epoch: 6 valid_loss: 2.0536431127293095 accuracy: 0.4468550955414013
+epoch: 7 train_loss: 1.40530826742082
+epoch: 7 valid_loss: 2.003050712263508 accuracy: 0.46267914012738853
+epoch: 8 train_loss: 1.187011941390879
+epoch: 8 valid_loss: 2.2361131747057486 accuracy: 0.4320262738853503
+epoch: 9 train_loss: 0.9704745237327292
+epoch: 9 valid_loss: 2.157937520628522 accuracy: 0.45421974522292996
